@@ -6,8 +6,8 @@ Cookiecutter template for a Python package. See https://github.com/audreyr/cooki
 
 * Free software: BSD license
 * Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
-* Travis-CI_: Ready for Travis Continuous integration testing
-* Tox_ testing: Setup to easily test for python 2.6, 2.7, 3.3 and PyPy_
+* Pipelines_: Ready for Bitbucket Pipelines integration testing
+* Tox_ testing: Setup to easily test for python 2.7, 3.5, 3.6 and PyPy_
 * Sphinx_ docs: Documentation raedy for generation with, for example, ReadTheDocs_
 * Wheel_ support: Use the newest python package distribution standard from the get go
 
@@ -16,12 +16,11 @@ Usage
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/Nekroze/cookiecutter-pypackage.git
+    cookiecutter https://github.com/benjsec/cookiecutter-pypackage.git
 
 Then:
 
 * Create a repo and put it there.
-* Add the repo to your Travis CI account.
 * Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
 * Run `tox` to make sure all tests pass.
 * Release your package the standard Python way.
@@ -57,6 +56,7 @@ make my own packaging experience better.
 .. _Sphinx: http://sphinx-doc.org/
 .. _ReadTheDocs: https://readthedocs.org/
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
+.. _Pipelines: https://bitbucket.org/product/features/pipelines
 .. _Pytest: http://pytest.org/
 .. _PyPy: http://pypy.org/
 .. _Wheel: http://pythonwheels.com
