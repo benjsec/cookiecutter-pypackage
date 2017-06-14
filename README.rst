@@ -5,14 +5,18 @@ cookiecutter-pypackage
 Cookiecutter template for a Python package. See https://github.com/audreyr/cookiecutter.
 
 * Free software: BSD license
-* Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
+* Bitbucket_ hosting: Designed to work with repositories hosted on Bitbucket
 * Pipelines_: Ready for Bitbucket Pipelines integration testing
+* Conda_: Creates a conda environment for your project
+* Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
 * Tox_ testing: Setup to easily test for python 2.7, 3.5, 3.6 and PyPy_
 * Sphinx_ docs: Documentation raedy for generation with, for example, ReadTheDocs_
 * Wheel_ support: Use the newest python package distribution standard from the get go
 
 Usage
 -----
+
+Conda_ needs to be installed and available on the system path.
 
 Generate a Python package project::
 
@@ -51,7 +55,8 @@ I also accept pull requests on this, if they're small, atomic, and if they
 make my own packaging experience better.
 
 
-.. _Travis-CI: http://travis-ci.org/
+.. _Conda: http://conda.io/miniconda
+.. _Bitbucket: http://bitbucket.org
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
 .. _ReadTheDocs: https://readthedocs.org/

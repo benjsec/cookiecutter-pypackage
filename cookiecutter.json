@@ -7,5 +7,6 @@
 	"project_short_description": "Deploy static HTML sites to S3 with the simple 'alotofeffort' command.",
 	"release_date": "2017-06-14",
 	"year": "2017",
-	"version": "0.1.0"
+	"version": "0.1.0",
+	"py_version": "3.6"
 }
