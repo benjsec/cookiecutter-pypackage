@@ -3,7 +3,7 @@ import sys
 from subprocess import Popen, PIPE
 
 
-dev_requirements = ['invoke', 'pytest']
+dev_requirements = ['invoke', 'pytest', 'flake8']
 
 
 def create_env(name):
