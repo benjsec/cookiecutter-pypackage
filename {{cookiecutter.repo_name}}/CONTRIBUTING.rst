@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues.
+Report bugs at https://bitbucket.org/{{ cookiecutter.bitbucket_username }}/{{ cookiecutter.repo_name }}/issues.
 
 If you are reporting a bug, please include:
 
@@ -24,13 +24,13 @@ If you are reporting a bug, please include:
 Fix Bugs
 ~~~~~~~~
 
-Look through the GitHub issues for bugs. Anything tagged with "bug"
+Look through the Bitbucket issues for bugs. Anything tagged with "bug"
 is open to whoever wants to implement it.
 
 Implement Features
 ~~~~~~~~~~~~~~~~~~
 
-Look through the GitHub issues for features. Anything tagged with "feature"
+Look through the Bitbucket issues for features. Anything tagged with "feature"
 is open to whoever wants to implement it.
 
 Write Documentation
@@ -43,7 +43,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues.
+The best way to send feedback is to file an issue at https://bitbucket.org/{{ cookiecutter.bitbucket_username }}/{{ cookiecutter.repo_name }}/issues.
 
 If you are proposing a feature:
 
@@ -58,10 +58,10 @@ Get Started!
 Ready to contribute? Here's how to set up `{{ cookiecutter.repo_name }}` for
 local development.
 
-1. Fork_ the `{{ cookiecutter.repo_name }}` repo on GitHub.
+1. Fork_ the `{{ cookiecutter.repo_name }}` repo on Bitbucket.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/{{ cookiecutter.repo_name }}.git
+    $ git clone git@bitbucket.org:your_name_here/{{ cookiecutter.repo_name }}.git
 
 3. Create a branch for local development::
 
@@ -76,7 +76,7 @@ Now you can make your changes locally.
 
 To get tox, just pip install it.
 
-5. Commit your changes and push your branch to GitHub::
+5. Commit your changes and push your branch to Bitbucket::
 
     $ git add .
     $ git commit -m "Your detailed description of your changes."
@@ -84,7 +84,7 @@ To get tox, just pip install it.
 
 6. Submit a pull request through the GitHub website.
 
-.. _Fork: https://github.com/Nekroze/{{ cookiecutter.repo_name }}/fork
+.. _Fork: https://bitbucket.org/benjsec/{{ cookiecutter.repo_name }}/fork
 
 Pull Request Guidelines
 -----------------------
@@ -96,7 +96,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.6, 2.7, and 3.3, and for PyPy.
-   Check https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }} 
+   Check https://bitbucket.org/{{ cookiecutter.bitbucket_username }}/{{ cookiecutter.repo_name }}/addon/pipelines
    under pull requests for active pull requests or run the ``tox`` command and
    make sure that the tests pass for all supported Python versions.
 
